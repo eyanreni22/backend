@@ -22,7 +22,7 @@ const io = new Server(server, {
   cors: {
     origin: [
       "http://localhost:5173", // Frontend development URL
-      "https://frontend.vercel.app", // Frontend production URL
+      "https://our-services-mern-frontend.vercel.app", // Frontend production URL
     ],
     credentials: true,
   },
